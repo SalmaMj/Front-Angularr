@@ -1,0 +1,16 @@
+<div class="content">
+  <div class="card-container"> 
+    <div class="card" *ngFor="let ressource of ressources">
+      <div class="img">
+      <div >
+      <h3>{{ ressource.titre }}</h3>
+      <p >{{ ressource.description }}</p>
+      <div class="card__date">
+        {{ ressource.dateTlg | date }} 
+      </div>
+    
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
